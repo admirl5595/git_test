@@ -1,0 +1,22 @@
+# This file explains some common git commands
+
+# initialize git repository
+git init
+
+# adds a file from working directory to the staging area
+git add .
+
+# saves changes applied to staging area, along with a descriptive message
+git commit -m "<descriptive message>"
+
+# adds a remote git repository to the local git repository
+git remote add origin git@github.com:admirl5595/<repository_name>.git
+
+# pushes the staged changes to the remote repository
+git push -u origin master
+
+# displays the state of the working directory and the staging area
+git status
+
+# displays committed snapshots
+git log
